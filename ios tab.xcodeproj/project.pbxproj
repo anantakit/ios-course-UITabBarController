@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C7BCE2ED2568D35F00AB9B69 /* ios tab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios tab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BCE2ED2568D35F00AB9B69 /* ios tab Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios tab Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BCE2F02568D35F00AB9B69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7BCE2F22568D35F00AB9B69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C7BCE2F42568D35F00AB9B69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		C7BCE2EE2568D35F00AB9B69 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C7BCE2ED2568D35F00AB9B69 /* ios tab.app */,
+				C7BCE2ED2568D35F00AB9B69 /* ios tab Controller.app */,
 				C7BCE3062568D36300AB9B69 /* ios tabTests.xctest */,
 				C7BCE3112568D36300AB9B69 /* ios tabUITests.xctest */,
 			);
@@ -148,7 +148,7 @@
 			);
 			name = "ios tab";
 			productName = "ios tab";
-			productReference = C7BCE2ED2568D35F00AB9B69 /* ios tab.app */;
+			productReference = C7BCE2ED2568D35F00AB9B69 /* ios tab Controller.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C7BCE3052568D36300AB9B69 /* ios tabTests */ = {
@@ -445,7 +445,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.ios-tab";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ios tab Controller";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,7 +462,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.ios-tab";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ios tab Controller";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
